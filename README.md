@@ -41,9 +41,9 @@ Développement du Controller Client.
 **Configuration du profil de développement**
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/commandes_db
+    url: jdbc:mysql://localhost:3306/TP_commandes_isi
     username: root
-    password: votre_mot_de_passe
+    password: 
 
   jpa:
     hibernate:
