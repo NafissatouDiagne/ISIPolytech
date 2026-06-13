@@ -9,6 +9,8 @@ import java.math.BigDecimal;
 @Table(name = "lignes_commandes")
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 
 public class LigneCommande {

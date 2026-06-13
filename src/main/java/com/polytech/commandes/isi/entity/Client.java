@@ -1,9 +1,7 @@
 package com.polytech.commandes.isi.entity;
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -11,7 +9,10 @@ import java.util.List;
 @Table(name = "clients")
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
+
 public class Client {
 
     @Id
